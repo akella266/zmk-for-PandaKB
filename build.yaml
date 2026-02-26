@@ -7,7 +7,7 @@ include:
     artifact-name: Sofle_left_oled
   - board: nice_nano_v2
     shield: Sofle_R nice_oled
-    snippet: zmk-usb-logging
+    # snippet: zmk-usb-logging
     artifact-name: Sofle_right_oled
   # Sofle with nice!view display(with nice_view_custom module) 适用于带nice_view的Sofle
   # - board: nice_nano_v2
@@ -29,9 +29,9 @@ include:
   # - board: nice_nano_v2
   #   shield: Sofle_dongle_left nice_oled
   #   artifact-name: Sofle_peripheral_left_oled
-  # - board: nice_nano_v2
-  #   shield: Sofle_dongle_right nice_oled
-  #   artifact-name: Sofle_peripheral_right_oled   
+  - board: nice_nano_v2
+    shield: Sofle_dongle_right nice_oled
+    artifact-name: Sofle_peripheral_right_oled   
   # peripheral with nice!view display(with nice_view_custom module)
   # - board: nice_nano_v2
   #   shield: Sofle_dongle_left Nice_view_config nice_view_custom
