@@ -2,12 +2,12 @@ include:
 # Sofle without dongle 不带dongle的Sofle
   # Sofle with oled display(with nice_oled module) 适用于带oled的Sofle
   - board: nice_nano_v2
-    shield: sofle_left nice_oled
+    shield: Sofle_L nice_oled
     # snippet: studio-rpc-usb-uart
     snippet: zmk-usb-logging
     artifact-name: Sofle_left_oled
   - board: nice_nano_v2
-    shield: sofle_right nice_oled
+    shield: Sofle_R nice_oled
     snippet: zmk-usb-logging
     artifact-name: Sofle_right_oled 
   # Sofle with nice!view display(with nice_view_custom module) 适用于带nice_view的Sofle
@@ -42,5 +42,4 @@ include:
   #   artifact-name: Sofle_peripheral_right_nice_view
  
   - board: nice_nano_v2
-    snippet: zmk-usb-logging
     shield: settings_reset
