@@ -9,7 +9,9 @@ include:
   - board: nice_nano_v2
     shield: sofle_right nice_oled
     snippet: zmk-usb-logging
-    artifact-name: Sofle_right_oled
+    artifact-name: Sofle_right_oled 
+  - board: nice_nano_v2
+    shield: settings_reset
   # Sofle with nice!view display(with nice_view_custom module) 适用于带nice_view的Sofle
   # - board: nice_nano_v2
     # shield: Sofle_L Nice_view_config nice_view_custom
@@ -42,4 +44,5 @@ include:
   #   artifact-name: Sofle_peripheral_right_nice_view
  
   - board: nice_nano_v2
+    snippet: zmk-usb-logging
     shield: settings_reset
