@@ -1,12 +1,12 @@
 include:
 # Sofle without dongle 不带dongle的Sofle
   # Sofle with oled display(with nice_oled module) 适用于带oled的Sofle
-  - board: nice_nano_v2 
+  - board: nice_nano
     shield: Sofle_L nice_oled
     # snippet: studio-rpc-usb-uart
     snippet: zmk-usb-logging
     artifact-name: Sofle_left_oled
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: Sofle_R nice_oled
     snippet: zmk-usb-logging
     artifact-name: Sofle_right_oled
