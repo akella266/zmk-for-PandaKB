@@ -13,6 +13,9 @@ if SHIELD_SOFLE_L || SHIELD_SOFLE_R
 config ZMK_SPLIT
     default y
 
+config ZMK_BLE
+    default n
+
 if ZMK_DISPLAY
 
 config I2C
